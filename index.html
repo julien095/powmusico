@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Music Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <!-- Pati Logo a -->
+            <div class="logo">
+                <img src="638.jpg" alt="Logo Platfòm nan">
+                <span class="logo-name">PowerMusic</span>
+            </div>
+
+            <!-- Meni Navigasyon -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Atis</a></li>
+                <li><a href="Album.html">Album</a></li>
+                <li><a href="Playlist.html">Playlist</a></li>
+            </ul>
+
+            <div class="nav-controls">
+                <!-- Ba Rechèch -->
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Chache yon mizik..." class="lang-element-placeholder" data-key="search_placeholder">
+                </div>
+
+                <!-- Bouton Dark Mode -->
+                <button id="theme-btn" class="btn-control">🌙</button>
+
+                <!-- Bouton Lang -->
+                <div class="menu">
+                    <button id="langToggle" class="btn-control">Lang</button>
+                    <div class="lis">
+                        <div onclick="chwaziLang('fr')">Français</div>
+                        <div onclick="chwaziLang('en')">English</div>
+                        <div onclick="chwaziLang('pt')">Português</div>
+                        <div onclick="chwaziLang('es')">Español</div>
+                        <div onclick="chwaziLang('ht')">Kreyòl</div>
+                    </div>
+                </div>
+
+                <!-- Bouton Meni Hamburger -->
+                <div class="menu-icon" id="menuIcon">
+                    <img src="icons8-menu-50.png" alt="Meni ikon">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="byenvini-section">
+            <h1 id="tit">Byenveni sou PowerMusic</h1>
+            <p id="soustit">Pi bon platfòm pou koute mizik ou renmen yo.</p>
+        </section>
+
+        <section class="albums-section">
+            <div class="cards">
+
+                <div class="card">
+                    <img src="stocksnap-people-2572167_1920.jpg" alt="1989 Album Cover">
+                    <h3><a href="1989.html" class="analyse-btn">1989</a></h3>
+                    <p>Taylor juna</p>
+                </div>
+
+                <div class="card">
+                    <img src="image album.jpg" alt="Amour et folie Album Cover">
+                    <h3>Amour et folie</h3>
+                    <p>Drake</p>
+                </div>
+
+                <div class="card">
+                    <img src="image artiste.jpg" alt="Hit mon coeur Album Cover">
+                    <h3>Hit mon coeur</h3>
+                    <p>Billie Krok</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="playlist">
+            <div class="cards">
+
+                <div class="card">
+                    <img src="andrzejrembowski-gramophone-4281060_1920.jpg" alt="Top Hits Atis">
+                    <h3> <a href="top hits.html" class="analyse-btn">Top Hits</a></h3>
+                    <p>20 Songs</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://picsum.photos/300/300?8" alt="Relax Music Playlist">
+                    <h3>Relax Music</h3>
+                    <p>35 Songs</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://picsum.photos/300/300?9" alt="Workout Playlist">
+                    <h3>Workout</h3>
+                    <p>18 Songs</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section Analize Playlist -->
+        <section class="analyse-section">
+            <h2 id="analyse-titre">Analize Playlist la</h2>
+
+            <p id="analyse-text">
+                Dekouvri enfòmasyon sou playlist ou a, kantite mizik, estil mizikal yo,
+                ak lòt detay ki ka ede w pi byen òganize mizik ou yo.
+            </p>
+
+            <a href="Playlist.html" class="analyse-btn">
+                Analize Playlist la
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="byenvini-section">
+            <p>
+                Kontak: powermusic@gmail.com<br>
+                @PowerMusic - Platfòm pou w tande pi bon mizik yo
+            </p>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
